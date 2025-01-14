@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 import csv
 
@@ -12,3 +11,6 @@ a = open("vacsi-v-fra-2022-01-06-19h05.csv","w")
 a.writelines(remplace)
 a.close
  
+#création de nos fichiers css
+file=open("vacsi-v-fra-2022-01-06-19h05.csv", "r")
+css=open("style.css",'w',encoding="utf-8")
