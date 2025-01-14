@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import csv
-import shutil #déplacer les fichiers 
+import shutil #déplacer les fichiers
+import os #gére la création de l'arborescence
 
 
 #Répare le fichier csv en remplacant les points virgules par des virgules 
@@ -23,3 +24,9 @@ except:
 	print("Visualisation des données")
 else:
 	print("Mise à jour avec les nouvelles données")
+	
+#Création de l'arborescence et déplacement des dossiers
+os.mkdir('interface')
+
+os.mkdir('css')
+shutil.move('css','interface')
