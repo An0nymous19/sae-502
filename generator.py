@@ -30,3 +30,22 @@ os.mkdir('interface')
 
 os.mkdir('css')
 shutil.move('css','interface')
+
+css.write(
+"""/*----------------------
+ 	General
+----------------------*/
+
+html, body {
+  font-family: 'Quicksand', sans-serif;
+  padding:0;
+  margin:0;
+  height: 100%;
+}
+
+html {
+  background-size: cover; /* version standardisée */
+  height: 100%;
+  top: 0;
+	left: 0; 
+}
