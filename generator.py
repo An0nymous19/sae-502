@@ -352,3 +352,12 @@ html.write("""<table class=table>
 	</thead>""")
 
 csvreader=csv.DictReader(file)
+
+def boucle():
+	vaccin='3'
+	for row in csvreader:
+		if row['vaccin']==vaccin:
+			html.write("<tr><td class=date>"+row['jour']+"</td>  <td>"+row['n_dose1']+"</td>  <td>"+row['n_dose2']+"</td>  <td>"+row['n_dose3']+"</td>  <td>"+row['n_dose4']+"</td>  <td>"+row['n_rappel']+"</td>  <td>"+row['n_cum_dose1']+"</td>  <td>"+row['n_cum_dose2']+"</td>  <td>"+row['n_cum_dose3']+"</td>  <td>"+row['n_cum_dose4']+"</td>  <td>"+row['n_cum_rappel']+"</td></tr>")
+boucle()
+html.write("</tbody></table></body></html>")
+html.close()
