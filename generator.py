@@ -184,3 +184,89 @@ a:hover {
   top: 5px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
+
+/*----------------------
+ 	Visualisation
+----------------------*/
+
+.titre {
+  font-size: large;
+  text-align: left;
+  margin-left: 12%;
+  margin-right: 20%;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  z-index: 2;
+  margin-top: 3%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.table  {
+  box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+  cursor: pointer;
+  margin-left: 18%;
+  margin-right: 20%;
+  margin-top: 20px;
+  height: 70vh;
+  border: 2px solid rgb(141, 141, 192);
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.test {
+  background-color: rgb(17, 17, 63);
+  color: #fff;
+  text-align: center;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+th, td {
+  padding: 15px 20px;
+  text-align: center;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.moyenne {
+  background-color: rgb(17, 17, 63);
+  color: #fff;
+  text-align: left;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  text-align: center;
+}
+
+.jour {
+  background-color: rgb(17, 17, 63);
+  color: #fff;
+  text-align: center;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.date {
+  background-color: rgb(48, 25, 133);
+  color:#ffffff
+}
+
+.moy  {
+  box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+  cursor: pointer;
+  margin-left: 18%;
+  margin-right: 40%;
+  margin-top: 20px;
+  height: 70vh;
+  border: 2px solid rgb(141, 141, 192);
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
