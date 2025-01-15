@@ -270,3 +270,35 @@ th, td {
   white-space: nowrap;
 }
 
+/*----------------------
+ 	Responsive
+----------------------*/
+
+@media screen and (max-width: 550px) {
+  body {
+    align-items: flex-start;
+  }
+  .table{
+    margin-left: 35%;
+    margin-right: 20%;
+    margin-top: 5%;
+    font-size: 10px;
+  }
+  th, td {
+    padding: 10px 7px;
+}
+
+.accueil{
+  font-size: 10px;
+}
+
+.menu a {
+  font-size: 10px;
+}
+
+.titre {
+  font-size: 10px;
+}
+
+}""")
+
