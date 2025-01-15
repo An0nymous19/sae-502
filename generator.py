@@ -331,3 +331,24 @@ def boucle():
 boucle()
 html.write("</tbody></table></body></html>")
 html.close()
+
+#ASTRA
+file=open("vacsi-v-fra-2022-01-06-19h05.csv", "r")
+html=open("astra.html",'w',encoding="utf-8")
+html.write(page)
+html.write("""<table class=table>
+		<thead>
+        <td class=jour>Jour</td>
+        <td class=test>Première dose</td>
+        <td class=test>Deuxième dose</td>
+        <td class=test>Troisième dose</td>
+        <td class=test>Quatrième dose</td>
+        <td class=test>Rappel</td>
+        <td class=test>Cumulation une</td>
+        <td class=test>Cumulation deux</td>
+        <td class=test>Cumulation trois</td>
+        <td class=test>Cumulation quatre</td>
+        <td class=test>Cumulation rappel</td
+	</thead>""")
+
+csvreader=csv.DictReader(file)
