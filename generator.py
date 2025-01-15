@@ -50,40 +50,137 @@ html {
 	left: 0; 
 }
 
-#MODERNA
-file=open("vacsi-v-fra-2022-01-06-19h05.csv", "r")
-html=open("moderna.html",'w',encoding="utf-8")
-html.write(page)
-html.write("""<table class=table>
-		<thead>
-        <td class=jour>Jour</td>
-        <td class=test>Première dose</td>
-        <td class=test>Deuxième dose</td>
-        <td class=test>Troisième dose</td>
-        <td class=test>Quatrième dose</td>
-        <td class=test>Rappel</td>
-        <td class=test>Cumulation une</td>
-        <td class=test>Cumulation deux</td>
-        <td class=test>Cumulation trois</td>
-        <td class=test>Cumulation quatre</td>
-        <td class=test>Cumulation rappel</td
-	</thead>""")
+/*----------------------
+ 	Barre du menu
+----------------------*/
 
-#PFIZER
-file=open("vacsi-v-fra-2022-01-06-19h05.csv", "r")
-html=open("pfizer.html",'w',encoding="utf-8")
-html.write(page)
-html.write("""<table class=table>
-		<thead>
-        <td class=jour>Jour</td>
-        <td class=test>Première dose</td>
-        <td class=test>Deuxième dose</td>
-        <td class=test>Troisième dose</td>
-        <td class=test>Quatrième dose</td>
-        <td class=test>Rappel</td>
-        <td class=test>Cumulation une</td>
-        <td class=test>Cumulation deux</td>
-        <td class=test>Cumulation trois</td>
-        <td class=test>Cumulation quatre</td>
-        <td class=test>Cumulation rappel</td
-	</thead>""")
+.menu {
+  padding:0; /* Suppression des marges internes */ 
+  margin: 0;            
+  background-color: #5e4a86;      /* Ajout de la couleur d'arrière-plan */
+  justify-content: center; /* Alignements des liens dans le menu */ 
+  opacity : 0.9;
+  z-index: 3; /*superposition du menu*/
+  position: fixed;
+  width: 11%;
+  height: 100vh;
+}
+
+.menu li {
+  list-style-type: none ;       /* Suppression des puces */
+}
+
+/* Le contenu et les dimenssions de nos box*/
+
+.menu a {
+  display:block;                /* Transformation en block */
+  min-width: 11%;             /* Largeur minimale des liens */   
+  padding: 1.4rem 0;            /* Marges internes */
+  text-align: left;         /* Centrage du texte */   
+  padding-left: 10px;
+  color: #fff;                  /* Couleur du texte */
+  text-decoration: none;        /* Suppression du soulignement */
+  border-radius: 2px;           /* Arrondis des bordures */
+  transition: all 0.3s ;          /* Ajout des effets de transition */
+  opacity : 0.9;
+}
+
+/* Cela va nous permettre de pouvoir donner un effet de sélection à notre menu*/
+
+.menu a:hover,
+
+ a:hover.actif{
+  background-color: #eba3a3;
+  color: #ffffff;
+}
+
+/*----------------------
+ 	Accueil
+----------------------*/
+
+.accueil {
+  font-size: large;
+  text-align: left;
+  margin-left: 12%;
+  margin-right: 1%;
+  height: 100%;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  z-index: 2;
+  top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.donnée {
+  font-size: large;
+  text-align: left;
+  margin-left: 12%;
+  margin-right: 1%;
+  height: 100%;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  z-index: 2;
+  margin-top: 1%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.information {
+  
+  font-size: large;
+  text-align: left;
+  margin-left: 12%;
+  margin-right: 1%;
+  height: 100%;
+  color: #000000;
+  background-color: #ffffff;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 1px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  z-index: 2;
+  text-align: justify;
+  margin-top: 50px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  
+}
+
+.description {
+    font-size: medium;
+}
+
+.text {
+  font-size: medium;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: blue;
+}
+
+.dose {
+  font-size: large;
+  text-align: left;
+  margin-left: 12%;
+  margin-right: 1%;
+  height: 100%;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  z-index: 2;
+  top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
