@@ -312,7 +312,7 @@ page = """<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
     <link rel="stylesheet"type="text/css"href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">        
-    <title>DOUICHER Massi SAE15</title>
+    <title>Site web Analyse de données</title>
         
 </head>
 
