@@ -389,6 +389,14 @@ html.write(
         </ul>
       </header>
 
+      <!-- Accueil -->
+      <section>
+      <div class=accueil>☰  &nbsp; Accueil</div>
+      <div class=information> 
+        <h3>Données relatives aux personnes vaccinées contre la Covid-19</h3>
+        <p class=description> <strong>Auteur:</strong> <a href="https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/#community-discussions"> Santé publique France </a> </p> 
+
+
 
 #MODERNA
 file=open("vacsi-v-fra-2022-01-06-19h05.csv", "r")
