@@ -349,6 +349,19 @@ page = """<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
       </section>"""
 
 
+#INDEX
+html=open("index.html",'w',encoding="utf-8")
+html.write(
+"""<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">
+
+    <link rel="stylesheet" href="interface/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">        
+    <title>DOUICHER Massi SAE15</title>  
+</head>
+
 
 #MODERNA
 file=open("vacsi-v-fra-2022-01-06-19h05.csv", "r")
