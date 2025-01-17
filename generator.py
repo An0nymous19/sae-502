@@ -543,3 +543,13 @@ html.write("</tbody></table></body></html>")
 html.close()
 css.close()
 
+#On déplace le fichier css et les pages dans les dossiers*
+shutil.move('style.css','interface/css')
+shutil.move('pfizer.html','interface')
+shutil.move('moderna.html','interface')
+shutil.move('astra.html','interface')
+shutil.move('jan.html','interface')
+shutil.move('moyenne.html','interface')
+
+#Ouverture de l'index après l'execution du programme
+webbrowser.open('index.html')
