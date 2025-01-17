@@ -316,9 +316,7 @@ page = """<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
         
 </head>
 
-<!-- Page HTML -->
-
-<htlm>
+<html>
     <body>
       <head>
         <!-- Menu HTML -->
@@ -343,6 +341,12 @@ page = """<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
               </li>
         </ul>
       </head>
+
+      <!-- Accueil -->
+      <section>
+      <div class=accueil>☰  &nbsp; Données relatives aux personnes vaccinées contre la Covid-19</div>
+      <div class=titre>Visualisation du jeu de données</div>
+      </section>"""
 
 
 
