@@ -2,7 +2,7 @@
 import csv
 import shutil #déplacer les fichiers
 import os #gére la création de l'arborescence
-
+import webbrowser #ouverture de l'index
 
 #Répare le fichier csv en remplacant les points virgules par des virgules 
 remplace = open("vacsi-v-fra-2022-01-06-19h05.csv", "r")
