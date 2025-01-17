@@ -362,6 +362,33 @@ html.write(
     <title>DOUICHER Massi SAE15</title>  
 </head>
 
+<!-- Page HTML -->
+
+    <body>
+      <header>
+        <!-- Menu HTML -->
+        <ul class="menu">
+              <li class=h>
+                <a href="index.html">Accueil</a>
+              </li>
+              <li>
+                <a href="interface/pfizer.html">Pfizer/BioNTech</a>
+              </li>
+              <li>
+                <a href="interface/moderna.html">Moderna</a>
+              </li>
+              <li>
+                <a href="interface/astra.html">AstraZeneka</a>
+              </li>
+              <li>
+                <a href="interface/jan.html">Janssen</a>
+              </li>
+              <li>
+                <a href="interface/moyenne.html">Moyenne</a>
+              </li>
+        </ul>
+      </header>
+
 
 #MODERNA
 file=open("vacsi-v-fra-2022-01-06-19h05.csv", "r")
