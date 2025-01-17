@@ -316,6 +316,34 @@ page = """<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
         
 </head>
 
+<!-- Page HTML -->
+
+<htlm>
+    <body>
+      <head>
+        <!-- Menu HTML -->
+        <ul class="menu">
+              <li class=h>
+                <a href="../index.html">Accueil</a>
+              </li>
+              <li>
+                <a href="pfizer.html">Pfizer/BioNTech</a>
+              </li>
+              <li>
+                <a href="moderna.html">Moderna</a>
+              </li>
+              <li>
+                <a href="astra.html">AstraZeneka</a>
+              </li>
+              <li>
+                <a href="jan.html">Janssen</a>
+              </li>
+              <li>
+                <a href="moyenne.html">Moyenne</a>
+              </li>
+        </ul>
+      </head>
+
 
 
 #MODERNA
