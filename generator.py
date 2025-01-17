@@ -395,7 +395,16 @@ html.write(
       <div class=information> 
         <h3>Données relatives aux personnes vaccinées contre la Covid-19</h3>
         <p class=description> <strong>Auteur:</strong> <a href="https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/#community-discussions"> Santé publique France </a> </p> 
-
+        <p class=description> <strong> Description: </strong></p>
+        <p class=text>Dès le lancement de la campagne de vaccination, les autorités sanitaires ont disposé d’informations permettant un suivi quotidien de l’avancée et du déploiement de la campagne sur le territoire. Celles-ci, recueillies auprès des établissements pour personnes âgées et des centres de vaccination, étaient transmises par les Agences régionales de santé.
+        Parallèlement, l’Assurance maladie a élaboré le système d’information Vaccin Covid (VAC-SI), qui est aujourd’hui pleinement opérationnel après un travail d’analyse de l’exhaustivité et de la complétude des données. 
+        Le système d’information Vaccin Covid est alimenté par les professionnels de santé réalisant les vaccinations.
+        Sur la base de l’exploitation de ces données, Santé Publique France publie en open data les indicateurs de couverture vaccinale. Les données issues du système d’information Vaccin Covid permettent de dénombrer en temps quasi réel (J-1), le nombre de personnes ayant reçu une injection de vaccin anti-covid en tenant compte du nombre de doses reçues, du vaccin, de l’âge, du sexe ainsi que du niveau géographique (national, régional et départemental). Les données sont disponibles par lieu de vaccination.</div>
+        <dive classe=dose></dive>
+      </section>
+    </body>
+</html>""")
+html.close()
 
 
 #MODERNA
