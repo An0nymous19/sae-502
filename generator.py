@@ -534,3 +534,12 @@ html.write("""<table class=moy>
         <td class=moyenne>Moyenne Injection</td>
 	</thead>""")
 
+csvreader=csv.DictReader(file)
+for row in csvreader:
+	moy_vac=(int(row['n_dose1'])+int(row['n_dose2'])+int(row['n_dose3'])+int(row['n_dose4'])+int(row['n_rappel']))/5
+	html.write("<tr><td class=date>"+row['jour']+"</td><td>"+str(moy_vac)+"</td></tr>")
+
+html.write("</tbody></table></body></html>")
+html.close()
+css.close()
+
