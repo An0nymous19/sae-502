@@ -522,3 +522,15 @@ def boucle():
 boucle()
 html.write("</tbody></table></body></html>")
 html.close()
+css.close()
+
+#MOYENNE INJECTION
+file=open("vacsi-v-fra-2022-01-06-19h05.csv", "r")
+html=open("moyenne.html",'w',encoding="utf-8")
+html.write(page)
+html.write("""<table class=moy>
+		<thead>
+        <td class=moyenne>Jour</td>
+        <td class=moyenne>Moyenne Injection</td>
+	</thead>""")
+
